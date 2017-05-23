@@ -1,0 +1,223 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: <%= name %>\n"
+"POT-Creation-Date: 2017-05-22 15:07+0200\n"
+"PO-Revision-Date: 2017-05-22 16:08+0200\n"
+"Last-Translator: \n"
+"Language-Team: <%= authors %> <%= authorURI %>\n"
+"Language: en_US\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.0.1\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-KeywordsList: _e;__\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: bower_components\n"
+"X-Poedit-SearchPathExcluded-1: critical\n"
+"X-Poedit-SearchPathExcluded-2: footer.php\n"
+
+#: functions.php:23
+msgid "Primary menu"
+msgstr ""
+
+#: functions.php:24
+msgid "Footer meni"
+msgstr ""
+
+#: functions.php:77
+msgid "Choose please..."
+msgstr ""
+
+#: includes/cpt.php:5 includes/cpt.php:6 includes/cpt.php:15
+msgid "Slider"
+msgstr ""
+
+#: includes/cpt.php:7
+msgid "Add New Slider"
+msgstr ""
+
+#: includes/cpt.php:8
+msgid "Add New Slide"
+msgstr ""
+
+#: includes/cpt.php:9
+msgid "Edit Slide"
+msgstr ""
+
+#: includes/cpt.php:10
+msgid "New Slide"
+msgstr ""
+
+#: includes/cpt.php:11
+msgid "View Slide"
+msgstr ""
+
+#: includes/cpt.php:12
+msgid "Search Slides"
+msgstr ""
+
+#: includes/cpt.php:13
+msgid "No Slides Found"
+msgstr ""
+
+#: includes/cpt.php:14
+msgid "No Slides Found in Trash"
+msgstr ""
+
+#: includes/customizer.php:8
+msgid "General Settings"
+msgstr ""
+
+#: includes/customizer.php:24
+msgid "Telephones"
+msgstr ""
+
+#: includes/customizer.php:25
+msgid "Enter telephones"
+msgstr ""
+
+#: includes/customizer.php:41
+msgid "Footer copyright info"
+msgstr ""
+
+#: includes/customizer.php:57
+msgid "Default facebook image"
+msgstr ""
+
+#: includes/customizer.php:73
+msgid "Facebook App ID"
+msgstr ""
+
+#: includes/customizer.php:100
+msgid "Website pages"
+msgstr ""
+
+#: includes/customizer.php:116
+msgid "Contact"
+msgstr ""
+
+#: includes/customizer.php:127
+msgid "Social links"
+msgstr ""
+
+#: includes/customizer.php:142
+msgid "YouTube"
+msgstr ""
+
+#: includes/customizer.php:158
+msgid "Facebook"
+msgstr ""
+
+#: includes/customizer.php:174
+msgid "Twitter"
+msgstr ""
+
+#: includes/customizer.php:190
+msgid "Linkedin"
+msgstr ""
+
+#: includes/customizer.php:201
+msgid "SMTP settings"
+msgstr ""
+
+#: includes/customizer.php:216
+msgid "SMTP host"
+msgstr ""
+
+#: includes/customizer.php:232
+msgid "SMTP username"
+msgstr ""
+
+#: includes/customizer.php:248
+msgid "SMTP email"
+msgstr ""
+
+#: includes/customizer.php:264
+msgid "SMTP password"
+msgstr ""
+
+#: includes/customizer.php:280
+msgid "SMTP security"
+msgstr ""
+
+#: includes/customizer.php:297
+msgid "SMTP port"
+msgstr ""
+
+#: includes/customizer.php:313
+msgid "Receiving email"
+msgstr ""
+
+#: includes/customizer.php:314
+msgid "Receiving email for Contact Page"
+msgstr ""
+
+#: includes/metaboxes.php:17 includes/metaboxes.php:25
+msgid "SEO fields"
+msgstr ""
+
+#: includes/metaboxes.php:37
+msgid "SEO fields for page"
+msgstr ""
+
+#: includes/metaboxes.php:40
+msgid "Page Title"
+msgstr ""
+
+#: includes/metaboxes.php:44
+msgid "Page description"
+msgstr ""
+
+#: includes/metaboxes.php:64 includes/metaboxes.php:81
+msgid "Characters Left: "
+msgstr ""
+
+#: includes/metaboxes.php:109
+msgid "Slider link"
+msgstr ""
+
+#: includes/metaboxes.php:119
+msgid "Link"
+msgstr ""
+
+#: send-contact.php:41
+#, php-format
+msgid "Contact from %s"
+msgstr ""
+
+#: send-contact.php:53
+msgid "Contact from: "
+msgstr ""
+
+#: send-contact.php:54
+msgid "Name and Surname"
+msgstr ""
+
+#: send-contact.php:55
+msgid "Email"
+msgstr ""
+
+#: send-contact.php:57
+msgid "Message"
+msgstr ""
+
+#: send-contact.php:67
+msgid "Sending Failed. Please try again later on. Thank You."
+msgstr ""
+
+#: send-contact.php:74
+msgid ""
+"The message has been successfully sent. We'll replay as soon as possible. "
+"Thank You."
+msgstr ""
+
+#: template-parts/homepage-slider.php:27
+msgid "Previous Slide"
+msgstr ""
+
+#: template-parts/homepage-slider.php:28
+msgid "Next Slide"
+msgstr ""

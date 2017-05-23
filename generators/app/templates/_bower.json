@@ -1,0 +1,51 @@
+{
+  "name": "<%= name %> weorpress theme",
+  "description": "website for <%= website %>",
+  "main": "",
+  "authors": [
+    "<%= authors %>"
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/jovpet/generator-wordpress-theme-gulp",
+  "private": true,
+  "dependencies": {
+    "foundation-sites": "^6.3.1"<% if (motionui) { %>,
+    "motion-ui": "^1.2.2"<% } %>
+  }<% if (foundationOverrides) { %>,
+  "overrides": {
+    "foundation-sites": {
+      "main": [
+        "../../.tmp/foundation-js/foundation.core.js"<% if (utilJs) { %>,
+        "../../.tmp/foundation-js/foundation.util.box.js",
+        "../../.tmp/foundation-js/foundation.util.keyboard.js",
+        "../../.tmp/foundation-js/foundation.util.mediaQuery.js",
+        "../../.tmp/foundation-js/foundation.util.motion.js",
+        "../../.tmp/foundation-js/foundation.util.nest.js",
+        "../../.tmp/foundation-js/foundation.util.timerAndImageLoader.js",
+        "../../.tmp/foundation-js/foundation.util.touch.js",
+        "../../.tmp/foundation-js/foundation.util.triggers.js"<% } %><% if (useAbide) { %>,
+        "../../.tmp/foundation-js/foundation.abide.js"<% } %><% if (useAccordion) { %>,
+        "../../.tmp/foundation-js/foundation.accordion.js"<% } %><% if (useAccordionMenu) { %>,
+        "../../.tmp/foundation-js/foundation.accordionMenu.js"<% } %><% if (useDrilldown) { %>,
+        "../../.tmp/foundation-js/foundation.drilldown.js"<% } %><% if (useDropdown) { %>,
+        "../../.tmp/foundation-js/foundation.dropdown.js"<% } %><% if (useDropdownMenu) { %>,
+        "../../.tmp/foundation-js/foundation.dropdownMenu.js"<% } %><% if (useEqualizer) { %>,
+        "../../.tmp/foundation-js/foundation.equalizer.js"<% } %><% if (useInterchange) { %>,
+        "../../.tmp/foundation-js/foundation.interchange.js"<% } %><% if (useMagellan) { %>,
+        "../../.tmp/foundation-js/foundation.magellann.js"<% } %><% if (useOffcanvas) { %>,
+        "../../.tmp/foundation-js/foundation.offcanvas.js"<% } %><% if (useOrbit) { %>,
+        "../../.tmp/foundation-js/foundation.orbit.js"<% } %><% if (useResponsiveMenu) { %>,
+        "../../.tmp/foundation-js/foundation.responsiveMenu.js"<% } %><% if (useResponsiveToggle) { %>,
+        "../../.tmp/foundation-js/foundation.responsiveToggle.js"<% } %><% if (useReveal) { %>,
+        "../../.tmp/foundation-js/foundation.reveal.js"<% } %><% if (useSlider) { %>,
+        "../../.tmp/foundation-js/foundation.slider.js"<% } %><% if (useSticky) { %>,
+        "../../.tmp/foundation-js/foundation.sticky.js"<% } %><% if (useTabs) { %>,
+        "../../.tmp/foundation-js/foundation.tabs.js"<% } %><% if (useToggler) { %>,
+        "../../.tmp/foundation-js/foundation.toggler.js"<% } %><% if (useTooltip) { %>,
+        "../../.tmp/foundation-js/foundation.tooltip.js"<% } %><% if (useResponsiveAccordionTabs) { %>,
+        "../../.tmp/foundation-js/foundation.zf.responsiveAccordionTabs.js"<% } %>
+      ]
+    }
+  }
+  <% } %>
+}

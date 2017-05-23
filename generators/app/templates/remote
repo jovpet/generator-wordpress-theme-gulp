@@ -1,0 +1,8 @@
+{
+  "host": "<%= website %>",
+  "user": "username",
+  "password": "******",
+  "port": "21",
+  "parallel": 8,
+  "remotePath": "/public-html/wp-content/themes/<%= name %>/"
+}

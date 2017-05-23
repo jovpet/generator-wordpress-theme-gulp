@@ -1,0 +1,225 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: <%= name %>\n"
+"POT-Creation-Date: 2017-05-22 15:07+0200\n"
+"PO-Revision-Date: 2017-05-22 16:08+0200\n"
+"Language-Team: <%= authors %> <%= authorURI %>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.0.1\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Poedit-KeywordsList: _e;__\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"Last-Translator: \n"
+"Language: sr_RS\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: bower_components\n"
+"X-Poedit-SearchPathExcluded-1: critical\n"
+"X-Poedit-SearchPathExcluded-2: footer.php\n"
+
+#: functions.php:23
+msgid "Primary menu"
+msgstr "Примарни изборник"
+
+#: functions.php:24
+msgid "Footer meni"
+msgstr "Изборник подножја"
+
+#: functions.php:77
+msgid "Choose please..."
+msgstr "Молимо одаберите..."
+
+#: includes/cpt.php:5 includes/cpt.php:6 includes/cpt.php:15
+msgid "Slider"
+msgstr "Слајдер"
+
+#: includes/cpt.php:7
+msgid "Add New Slider"
+msgstr "Додај нови слајдер"
+
+#: includes/cpt.php:8
+msgid "Add New Slide"
+msgstr "Додај нови слајд"
+
+#: includes/cpt.php:9
+msgid "Edit Slide"
+msgstr "Уреди слајд"
+
+#: includes/cpt.php:10
+msgid "New Slide"
+msgstr "Нови слајд"
+
+#: includes/cpt.php:11
+msgid "View Slide"
+msgstr "Погледај слајд"
+
+#: includes/cpt.php:12
+msgid "Search Slides"
+msgstr "Претражи слајдове"
+
+#: includes/cpt.php:13
+msgid "No Slides Found"
+msgstr "Слајдови нису пронађени"
+
+#: includes/cpt.php:14
+msgid "No Slides Found in Trash"
+msgstr "Слајдови нису пронађени у отпаду"
+
+#: includes/customizer.php:8
+msgid "General Settings"
+msgstr "Општа подешавања"
+
+#: includes/customizer.php:24
+msgid "Telephones"
+msgstr "Телефони"
+
+#: includes/customizer.php:25
+msgid "Enter telephones"
+msgstr "Унеси телефоне"
+
+#: includes/customizer.php:41
+msgid "Footer copyright info"
+msgstr "Подаци о ауторским правима у подножју"
+
+#: includes/customizer.php:57
+msgid "Default facebook image"
+msgstr "Подразумевана Фејсбук слика"
+
+#: includes/customizer.php:73
+msgid "Facebook App ID"
+msgstr "ИД Фејсбук апликације"
+
+#: includes/customizer.php:100
+msgid "Website pages"
+msgstr "Странице сајта"
+
+#: includes/customizer.php:116
+msgid "Contact"
+msgstr "Контакт"
+
+#: includes/customizer.php:127
+msgid "Social links"
+msgstr "Друштвене мреже"
+
+#: includes/customizer.php:142
+msgid "YouTube"
+msgstr "Ју-тјуб"
+
+#: includes/customizer.php:158
+msgid "Facebook"
+msgstr "Фејсбук"
+
+#: includes/customizer.php:174
+msgid "Twitter"
+msgstr "Твитер"
+
+#: includes/customizer.php:190
+msgid "Linkedin"
+msgstr "Линкдин"
+
+#: includes/customizer.php:201
+msgid "SMTP settings"
+msgstr "SMTP подешавања"
+
+#: includes/customizer.php:216
+msgid "SMTP host"
+msgstr "SMTP домаћин"
+
+#: includes/customizer.php:232
+msgid "SMTP username"
+msgstr "SMTP корисничко име"
+
+#: includes/customizer.php:248
+msgid "SMTP email"
+msgstr "SMTP е-пошта"
+
+#: includes/customizer.php:264
+msgid "SMTP password"
+msgstr "SMTP лозинка"
+
+#: includes/customizer.php:280
+msgid "SMTP security"
+msgstr "SMTP тип сигурности"
+
+#: includes/customizer.php:297
+msgid "SMTP port"
+msgstr "SMTP порт"
+
+#: includes/customizer.php:313
+msgid "Receiving email"
+msgstr "Е-пошта за пријем"
+
+#: includes/customizer.php:314
+msgid "Receiving email for Contact Page"
+msgstr "Е-пошта за пријем са Контакт стране"
+
+#: includes/metaboxes.php:17 includes/metaboxes.php:25
+msgid "SEO fields"
+msgstr "SEO поља"
+
+#: includes/metaboxes.php:37
+msgid "SEO fields for page"
+msgstr "SEO поља за страну"
+
+#: includes/metaboxes.php:40
+msgid "Page Title"
+msgstr "Наслов стране"
+
+#: includes/metaboxes.php:44
+msgid "Page description"
+msgstr "Опис стране"
+
+#: includes/metaboxes.php:64 includes/metaboxes.php:81
+msgid "Characters Left: "
+msgstr "Остало карактера: "
+
+#: includes/metaboxes.php:109
+msgid "Slider link"
+msgstr "Слајдер веза"
+
+#: includes/metaboxes.php:119
+msgid "Link"
+msgstr "Веза"
+
+#: send-contact.php:41
+#, php-format
+msgid "Contact from %s"
+msgstr "Контакт са %s"
+
+#: send-contact.php:53
+msgid "Contact from: "
+msgstr "Контакт од: "
+
+#: send-contact.php:54
+msgid "Name and Surname"
+msgstr "Име и презиме"
+
+#: send-contact.php:55
+msgid "Email"
+msgstr "Е-пошта"
+
+#: send-contact.php:57
+msgid "Message"
+msgstr "Порука"
+
+#: send-contact.php:67
+msgid "Sending Failed. Please try again later on. Thank You."
+msgstr "Слање није успело. Молимо покушајте касније. Хвала Вам."
+
+#: send-contact.php:74
+msgid ""
+"The message has been successfully sent. We'll replay as soon as possible. "
+"Thank You."
+msgstr ""
+"Порука је успешно послата. Одговорићемо Вам у најкраћем могућем року. Хвала."
+
+#: template-parts/homepage-slider.php:27
+msgid "Previous Slide"
+msgstr "Претходни слајд"
+
+#: template-parts/homepage-slider.php:28
+msgid "Next Slide"
+msgstr "Следећи слајд"

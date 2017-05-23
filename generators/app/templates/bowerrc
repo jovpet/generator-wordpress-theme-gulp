@@ -1,0 +1,3 @@
+{
+  "directory": "wp-content/themes/<%= name %>/bower_components"
+}

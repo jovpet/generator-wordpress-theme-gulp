@@ -1,0 +1,58 @@
+{
+  "name": "generator-wordpress-theme-gulp",
+  "version": "0.0.1",
+  "description": "wordpress Theme generator using gulp and webpack for automation process",
+  "homepage": "www.konstrukt.rs",
+  "author": {
+    "name": "Jovan Petrovic | konstrukt",
+    "email": "jovan@konstrukt.rs",
+    "url": "www.konstrukt.rs"
+  },
+  "files": [
+    "generators"
+  ],
+  "main": "generators/index.js",
+  "keywords": [
+    "wordpress",
+    "gulp",
+    "es6",
+    "yeoman-generator"
+  ],
+  "dependencies": {
+    "chalk": "^1.1.3",
+    "got-google-fonts": "^0.1.2",
+    "request": "^2.81.0",
+    "simple-git": "^1.73.0",
+    "wp-util": "^0.1.6",
+    "yeoman-generator": "^1.1.1",
+    "yeoman-remote": "^1.0.1",
+    "yosay": "^2.0.0"
+  },
+  "devDependencies": {
+    "eslint": "^3.19.0",
+    "eslint-config-xo-space": "^0.16.0",
+    "gulp": "^3.9.0",
+    "gulp-eslint": "^3.0.1",
+    "gulp-exclude-gitignore": "^1.0.0",
+    "gulp-istanbul": "^1.0.0",
+    "gulp-line-ending-corrector": "^1.0.1",
+    "gulp-mocha": "^4.3.1",
+    "gulp-nsp": "^2.1.0",
+    "gulp-plumber": "^1.0.0",
+    "napa": "^2.3.0",
+    "yeoman-assert": "^3.0.0",
+    "yeoman-test": "^1.6.0"
+  },
+  "eslintConfig": {
+    "extends": "xo-space",
+    "env": {
+      "mocha": true
+    }
+  },
+  "repository": "jovpet/generator-wordpress-theme-gulp",
+  "scripts": {
+    "prepublish": "gulp prepublish",
+    "test": "gulp"
+  },
+  "license": "MIT"
+}

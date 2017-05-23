@@ -1,0 +1,27 @@
+*.log
+wp-config.php
+wp-content/advanced-cache.php
+wp-content/backup-db/
+wp-content/backups/
+wp-content/blogs.dir/
+wp-content/cache/
+wp-content/upgrade/
+wp-content/uploads/
+wp-content/wp-cache-config.php
+wp-content/plugins/hello.php
+wp-content/themes/<%= name %>/bower_components/
+wp-content/themes/<%= name %>/scripts/scripts.js
+wp-content/themes/<%= name %>/.tmp
+wp-content/themes/<%= name %>/critical
+wp-content/themes/<%= name %>-build/
+wp-content/themes/<%= name %>/footer*.php<% if (gulpUseSvgSprites) { %>
+wp-content/themes/<%= name %>/scss/_sprite.scss<% } %>
+node_modules/
+.idea/
+vendor/
+
+/license.txt
+/readme.html
+
+/remote.json
+/wp-content/themes/<%= name %>/footer*.php

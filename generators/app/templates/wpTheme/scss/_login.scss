@@ -1,0 +1,41 @@
+/*!
+Theme Name: <%= name %>
+Theme URI: <%= website %>
+Author: <%= authors %>
+AuthorURI: <%= AuthorURI %>
+Description: <%= name %> custom wordpress theme
+Version: 1.0
+License: The MIT License (MIT)
+License URI: http://opensource.org/licenses/MIT
+Text Domain: <%= name %>
+*/
+@import 'settings/settings';
+
+html {
+  height: 100%;
+  background: $white!important;
+}
+body {
+  background: $white!important;
+  color: $black;
+  height: 100%;
+
+  #loginform {
+    background: $white!important;
+    box-shadow: none;
+    color: $black;
+
+    .login  {
+      label {
+        color: $black;
+      }
+      #login_error {
+        background: $white!important;
+      }
+      .message {
+        background: $white!important;
+        box-shadow: none;
+      }
+    }
+  }
+}
